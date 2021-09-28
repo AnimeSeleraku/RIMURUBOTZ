@@ -1,5 +1,5 @@
 {
-  "name": "ʀɪᴍᴜʀᴜ",
+  "name": "Rimuru",
   "version": "1.0.0",
   "description": "SUBSCRIBE YT ANIME SELERAKU",
   "main": "main.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
   },
-  "author": "ʀɪᴍᴜʀᴜ",
+  "author": "Rimuru",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "axios": "^0.21.1",
