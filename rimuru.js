@@ -3004,8 +3004,7 @@ wibu = `
 case 'photooky':
 if (!isRegistered) return reply(ind.only.daftarB)
 groups = ikyy.chats.array.filter(v => v.jid.endsWith('g.us'))
-                 privat = ikyy.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-                 ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
+                 privat = ikyy jl.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
                  charger = `${charging ? 'lagi dicas' : 'ga dicas'}`
                  uptime = process.uptime();
                  timestampe = speed();
@@ -3227,7 +3226,7 @@ wibu = `
 
 
 `
-   sendButMessage(from, wibu, `created iky ads`, [
+   sendButMessage(from, wibu, `created Rimuru`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -3683,7 +3682,7 @@ reply (mess.wait)
     break
    case 'setwelcome':
 					  
-					  if (args.length < 1) return reply('*Teks nya mana gan?*')
+				Ini	  if (args.length < 1) return reply('*Teks nya mana gan?*')
     ikyy.updatePresence(from, Presence.composing) 
 					if (args.length < 1) return
 					join = body.slice(11)
@@ -4123,6 +4122,18 @@ case 'ceritahoror':
                prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply, contextInfo:{ forwardingScore:508, isForwarded:true, mentionedJid:[senderr]}})
           ikyy.relayWAMessage(prep)
                break
+      Case 'ass'
+         if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: freply})
+reply (mess.wait)
+               buff = await getBuffer(`https://media.discordapp.net/attachments/530635618003451904/664504965666045964/63621044_p0_master1200.png`)
+buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
+              imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
+              buttonsMessage = {footerText:'crated by ʀɪᴍᴜʀᴜ࿐ https://instabio.cc/Rimuru/', imageMessage: imageMsg,
+              contentText:`♥️ ⲂⲟⲦz ʀɪᴍᴜʀᴜ࿐ https://instabio.cc/Rimuru/`,buttons,headerType:4}
+              prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
+              ikyy.relayWAMessage(prep)
+        
+    break
         
        case 'wibumenu':
         case  'menuwibu':
